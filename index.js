@@ -31,3 +31,10 @@ console.log(output);
 console.log(output[0] === "A" && output[1] === "B" && output[2] === "C"); // assertion
 
 console.log("the end");
+
+
+/* myReduce */
+
+var total = [0, 1, 2, 3];
+
+myReduce(total,function(prev,curr) => prev + curr);
