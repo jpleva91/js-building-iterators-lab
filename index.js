@@ -35,6 +35,9 @@ console.log("the end");
 
 /* myReduce */
 
-var total = [0, 1, 2, 3];
-
-myReduce(total,function(prev,curr) => prev + curr);
+var input = ["a","b","c"];
+var output = myMap(input, function sum(a,b,c) {
+    return (a + b);
+});
+console.log('Testing myReduce');
+console.log(output);
